@@ -4,13 +4,14 @@
 		.top{
 			background color:white;
 			color:#800000;
+			margin:0px;
 			
     width: 100%;
     opacity: 1;
 		}
 
 		.main{
-			position: static;
+			margin:0px;
      width: 100%;
   
 		}
@@ -18,7 +19,7 @@
 .head{
 	font-family:  Arial; 
 	color: #800000;
-	text-align: right;
+	text-align: left;
 	font-size: 24px;
 	padding-top: 10px;
 	border-bottom-color: #4d0000;
