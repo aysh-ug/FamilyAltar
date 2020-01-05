@@ -33,9 +33,10 @@
 
 
 .aysh{
-	background-color: #000000;
+	background-color: white;
 	padding-left: 5px;
 	height: 100px;
+	color:#800000;
 	
     width: 100%;
     opacity: 1;
