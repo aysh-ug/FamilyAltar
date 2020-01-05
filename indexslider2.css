@@ -15,10 +15,10 @@
 
 .head{
 	font-family:  Arial; 
-	color: red;
+	color: #800000;
 	text-align: right;
 	font-size: 30px;
-	background-color:black;
+	background-color:white;
 	padding-top: 10px;
 	border-bottom-color: #4d0000;
 	border-bottom-width: 0px;
