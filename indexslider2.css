@@ -1,6 +1,6 @@
 	/*------------PHONES----------------------*/
 
-	@media screen {
+	@media screen and (max-width: 600px){
 		.top{
 			 position: sticky;
     top: 0;
