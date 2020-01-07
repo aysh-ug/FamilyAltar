@@ -10,7 +10,20 @@
 
 </head>
 
-<body style="margin: 0px;">
+<body id="wholebody" style="padding: 0;
+margin: 0px 10px 0px 10px; ">
+  
+  <script>
+  $(document).ready(function(){
+    $(window).resize();
+});
+$(window).resize(function{
+    // your code
+    var windowWidth=$(window).width();
+    var mainContainerWidth=windowWidth-100; // For example
+    $("#wholebody").css({"width":mainContainerWidth+"px"});
+});
+  </script>
 	<div class="top" style="display: flex; flex-direction: row;">
 <div class="head" style="flex:1;">FAMI LOVE<img src="images/heart.png" width="70px;"></div>
 <div style="flex:1; color: white;	text-align: center;	font-size: 16px;	background-color:black; font-family: arial;	padding-top: 10px;
