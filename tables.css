@@ -2,6 +2,30 @@
 
 	@charset "UTF-8";
 @media only screen and (min-width: 600px) {
+table {
+	text-align: left;
+	margin: 10px;
+	border:0;
+		border-top: 1px solid #000;
+		border-left: 1px solid #000;
+		border-right: 1px solid #000;
+
+
+}
+
+tr{
+
+}
+
+td { padding: 5px 20px 5px 5px;
+	border-bottom: 1px solid #000;
+}
+th { padding: 5px;
+	text-align: right;
+	border-bottom: 1px solid #000;
+	border-right:  1px solid #000;
+
+}
 
 }
 /*--------------PHONES-----------------------------*/
@@ -23,11 +47,12 @@ tr{
 
 }
 
-td { padding: 5px 20px 5px 5px;
+td { padding: 10px;
 	border-bottom: 1px solid #000;
+	text-align: left;
 }
-th { padding: 5px;
-	text-align: right;
+th { padding: 10px;
+	text-align: left;
 	border-bottom: 1px solid #000;
 	border-right:  1px solid #000;
 
