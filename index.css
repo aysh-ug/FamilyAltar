@@ -583,7 +583,7 @@ color: #e6e6e6;
 	font-family: Times new roman; 
 }
 .rightside{
-	margin: 20px 0px;  padding: 20px;width: 100%;
+	margin: 20px auto;  padding: 20px;width: 80%;
 	 background-color: #ccebff; overflow-y: scroll;
 	 
 }

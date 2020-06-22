@@ -53,9 +53,7 @@ li a:hover {
 	display: none;
 }
 
-#main{
-
-
+#main{flex-direction: row;
 	display: flex;min-height: 350px;
 }
 #othercontent{
@@ -94,6 +92,10 @@ li a:hover {
 	h1{
 		color: #fff; font-family: Times new roman;
 	}
+h4{
+	padding: 0px 20px 0px; text-align: center;
+}
+
 h3{
 	padding:5px 20px 5px 20px; font-family: Times new roman;
 	
@@ -155,19 +157,19 @@ h3{
 }
 
  #welcome{ margin-top: 10px;
-border-radius: 0px;
-border:0px solid #000;
-min-width: 300px;
+border-radius: 20px;
+border:1px solid #000;
+max-width: 300px;
 font-size: 14px;
 overflow-y: scroll;
 height: 390px;
 /*background-color: #b3e0ff;*/
-  background:#ffb3b3; /* For browsers that do not support gradients */
+  background:#e6e7e4; /* For browsers that do not support gradients */
 }
 
 #welcome img{
 	width: 40%;
-	float: left;
+	float: none;
 	margin: 5px 20px 5px 5px;
 }
 #welcome p{
@@ -175,20 +177,28 @@ height: 390px;
 }
 #welcome h2{
 	font-family: times new roman;
-	margin: 10px auto; padding: 10px 0px 0px 10px;
-	font-size: 180%;
+	margin: 0px 10px; padding: 10px 0px 0px 0px;
+	font-size: 150%;
+}
+
+#welcome form{
+	padding:5px 10px; margin: 10px;
+}
+
+#welcome form input{
+	padding:5px 10px; margin: 0px 0px 5px;
 }
 
 .wbutton{
 	padding: 5px 20px ;
 	border-radius: 0px;
-	border:0px solid #b34d4d;
+	border:0px solid #ff3333;
 	border-style: outset;
 	margin: 0px 20px 20px;
 	text-align: center;
 	float: none;
 	font-family: 'Nunito Sans', sans-serif, arial; font-size: 14px;
-	background-color: #fff;
+	background-color:#99ff33;
 }
 
 .wbutton a{
@@ -451,17 +461,36 @@ h3{
 	display: none;
 }
 #main{
-	display: flex;
+	display: flex; flex-direction: column;
 }
-#submain1{
-	margin: 0px 5px;
+#welcome{ margin: 10px;
+border-radius: 0px;
+border:0px solid #000;
+/*background-color: #b3e0ff;*/
+ background:#e6e7e4; /* For browsers that do not support gradients */
+    min-height: 250px;
+    }
+
+#welcome img{
+	width: 40%;
+	float: left;
+	margin: 5px 20px 5px 5px;
 }
-#submain1 img{
-	margin: 0px 20px;
+#welcome p{
+	padding: 20px; font-size: 14px; margin: 0px;
+}
+#welcome h2{
+	font-family: times new roman;
+	margin: 10px auto; padding: 10px 0px 0px 0px;
+	font-size: 150%;
 }
 
-#submain1 h3{
-	margin: 0px auto;
+#welcome form{
+	padding:5px 10px; margin: 10px;
+}
+
+#welcome form input{
+	padding:5px 10px; margin: 0px 0px 5px;
 }
 
 h4{
