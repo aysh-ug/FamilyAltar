@@ -162,11 +162,14 @@ font-size: 14px;
 overflow-y: scroll;
 height: 390px;
 /*background-color: #b3e0ff;*/
-  background:#ffb3b3; /* For browsers that do not support gradients */
+  background:#f3f3f1; /* For browsers that do not support gradients */
+}
+#welcome h4{
+	color:  #b34d4d; padding: 0px 20px;
 }
 
 #welcome img{
-	width: 40%;
+	width: 90%;
 	float: left;
 	margin: 5px 20px 5px 5px;
 }
@@ -187,12 +190,13 @@ height: 390px;
 	margin: 0px 20px 20px;
 	text-align: center;
 	float: none;
-	font-family: 'Nunito Sans', sans-serif, arial; font-size: 14px;
-	background-color: #fff;
+	font-family: 'Nunito Sans', sans-serif, arial;
+	 font-size: 14px;color: #fff;
+	background-color:#cc0000;
 }
 
 .wbutton a{
-	text-decoration: none;
+	text-decoration: none;color: #fff;
 }
 /*------------SUBMAIN 2----------*/
 #submain2{ margin-top: 10px;
@@ -305,11 +309,11 @@ color: #e6e6e6;
 
 .rightside{
 	margin-right: 20px; max-width: 250px; padding: 20px;
-	 background-color: #ffb3b3; overflow-y: scroll;
+	 background-color: #f3f3f1; overflow-y: scroll;
 	 height: 360px;
 }
 .rightside img{
-	width: 100%;
+	width: 80%;
 }
 .rightside p{
 	font-size: 14px; 
@@ -453,7 +457,7 @@ h3{
 border-radius: 0px;
 border:0px solid #000;
 /*background-color: #b3e0ff;*/
- background:#e6e7e4; /* For browsers that do not support gradients */
+ background:#f3f3f1; /* For browsers that do not support gradients */
     min-height: 250px;
     }
 
@@ -608,7 +612,7 @@ color: #e6e6e6;
 }
 .rightside{
 	margin: 20px 0px;  padding: 20px;width: 90%;
-	 background-color: #ffb3b3; overflow-y: scroll;
+	 background-color: #f3f3f1;
 	 
 }
 

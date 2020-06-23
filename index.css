@@ -145,7 +145,7 @@ h3{
 }
 
 .connect {
-	 float: right; text-decoration: none; color:  #ccebff; padding-top: 5px;
+	 float: right; text-decoration: none; color:  #f3f3f1; padding-top: 5px;
 	 padding-right: 2px;font-size: 14px;
 }
 
@@ -162,7 +162,7 @@ font-size: 14px;
 overflow-y: scroll;
 height: 390px;
 /*background-color: #b3e0ff;*/
-  background:#ccebff; /* For browsers that do not support gradients */
+  background:#f3f3f1; /* For browsers that do not support gradients */
 }
 
 #welcome img{
@@ -299,7 +299,7 @@ color: #e6e6e6;
 
 .rightside{
 	margin-right: 20px; max-width: 250px; padding: 20px;
-	 background-color: #ccebff; overflow-y: scroll;
+	 background-color: #f3f3f1; overflow-y: scroll;
 	 height: 360px;
 }
 
@@ -437,7 +437,7 @@ h3{
 border-radius: 0px;
 border:0px solid #000;
 /*background-color: #b3e0ff;*/
- background:#e6e7e4; /* For browsers that do not support gradients */
+ background:#f3f3f1; /* For browsers that do not support gradients */
     min-height: 250px;
     }
 
@@ -584,7 +584,7 @@ color: #e6e6e6;
 }
 .rightside{
 	margin: 20px auto;  padding: 20px;width: 80%;
-	 background-color: #ccebff; overflow-y: scroll;
+	 background-color: #f3f3f1; 
 	 
 }
 .rightside h2{
