@@ -66,7 +66,7 @@ li a:hover {
 #oright{
 	flex: 1; margin-left: 10px;
 }
-#oright h2{
+#oright h2{margin-top: 0;
 	margin-left: 20px;text-align: left;
 	color: #cc0000;font-family: Times new roman;
 	font-size: 180%;
@@ -233,9 +233,10 @@ max-width: 630px;
  /*-------------SUBMAIN 3----------*/
 
 #submain3{ margin-top: 10px;
+	margin-bottom: 0px;
 border-radius: 0px;
 border:0px solid #000;
-height: 300px;
+height: 400px;
 max-width: 630px;
 overflow-y: scroll;
 color: #e6e6e6;
@@ -267,7 +268,8 @@ color: #e6e6e6;
 }
 
 #submain3 h4{
-	padding: 5px 20px; font-family: times new roman; color: #ffc34d; font-size: 150%;
+	padding: 5px 20px; font-family: times new roman; 
+	color: #ffc34d; font-size: 150%; margin-top: 0;
 }
 .wbutton3{
 	padding: 5px 20px;
@@ -385,9 +387,9 @@ color: #e6e6e6;
 		color: #fff; font-family:'Nunito Sans', sans-serif, Times new roman; font-size: 20px;
 	}
 h3{
-	padding:5px 20px 5px 20px; font-family: Times new roman;
-	width: 80%;
-	font-size: 150%; background-color: #b34d4d; color: #fff;
+	padding:5px 20px 5px 20px; 
+	width: 80%; font-weight: normal;
+	font-size: 120%; background-color: #b34d4d; color: #fff;
 }
 
 .dropbtn {
@@ -451,7 +453,7 @@ h3{
 border-radius: 0px;
 border:0px solid #000;
 /*background-color: #b3e0ff;*/
- background:#ffb3b3; /* For browsers that do not support gradients */
+ background:#e6e7e4; /* For browsers that do not support gradients */
     min-height: 250px;
     }
 
@@ -467,6 +469,11 @@ border:0px solid #000;
 	font-family: times new roman;
 	margin: 10px 0px; padding: 10px 0px 0px 10px;
 	font-size: 180%;
+}
+
+#welcome h4{
+	padding: 0px 20px; margin: 0; color: #b34d4d; 
+	font-size: 120%;
 }
 #oright{
 	margin: 10px;
@@ -491,7 +498,7 @@ border:0px solid #000;
 }
 
 .wbutton a{
-	text-decoration: none;
+	text-decoration: none; color: #fff;
 }
 /*------------SUBMAIN 2----------*/
 #submain2{ margin: 10px;
@@ -600,7 +607,7 @@ color: #e6e6e6;
 	font-family: Times new roman; 
 }
 .rightside{
-	margin: 20px 0px;  padding: 20px;width: 100%;
+	margin: 20px 0px;  padding: 20px;width: 90%;
 	 background-color: #ffb3b3; overflow-y: scroll;
 	 
 }
