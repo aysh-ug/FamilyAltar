@@ -91,8 +91,9 @@ li a:hover {
 	padding: 1px; border-bottom: 0.2px solid #b30000;
 	background-color:#000; margin: 0px;
 }
+	
 	h1{
-		color: #fff; font-family: Times new roman;
+		color: #fff; font-family: 'Nunito Sans', sans-serif,Arial;font-size: 150%;
 	}
 h3{
 	padding:5px 20px 5px 20px; font-family: Times new roman;
@@ -162,7 +163,7 @@ font-size: 14px;
 overflow-y: scroll;
 height: 390px;
 /*background-color: #b3e0ff;*/
-  background:#f3f3f1; /* For browsers that do not support gradients */
+  background:#ddddd5; /* For browsers that do not support gradients */
 }
 
 #welcome img{
@@ -299,7 +300,7 @@ color: #e6e6e6;
 
 .rightside{
 	margin-right: 20px; max-width: 250px; padding: 20px;
-	 background-color: #f3f3f1; overflow-y: scroll;
+	 background-color: #ddddd5; overflow-y: scroll;
 	 height: 360px;
 }
 
