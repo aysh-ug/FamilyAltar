@@ -68,7 +68,7 @@ margin: 0px auto;
 }
 #oright h2{
 	margin-left: 20px;text-align: left;
-	color: #cc0000;font-family: Times new roman;
+	color: #cc0000;font-family: 'Nunito Sans', sans-serif,Arial;
 	font-size: 180%;
 }
 
@@ -157,7 +157,7 @@ h3{
 
 #wmessage{
 	color:#b30000; margin: 20px auto 0px ; text-align: center;
-	font-weight: bold;font-family: Times new roman;
+	font-weight: bold;font-family: 'Nunito Sans', sans-serif,Arial;
 }
 
  #welcome{ margin: 20px auto;
@@ -179,7 +179,7 @@ min-height: 390px;
 	padding: 20px; font-size: 14px; margin: 0px;
 }
 #welcome h2{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 	margin: 0px 10px; padding: 10px 0px 0px 0px;
 	font-size: 150%;
 }
@@ -222,12 +222,12 @@ max-width: 630px;
 	padding: 20px; font-size: 14px; margin-top: 10px;
 }
 #submain2 h2{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 	 padding: 10px 0px 10px 20px;
 	 font-size: 160%;margin: 0;
 }
 #submain2 h2 a{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 	 padding: 10px 20px;
 	 color: white;
 	}
@@ -263,7 +263,7 @@ color: #e6e6e6;
 	padding: 20px; font-size: 14px; margin-top: 10px;
 }
 #submain3 h2{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 	 padding: 10px 0px 0px 20px;
 	 font-size: 180%;margin: 0;
 }
@@ -280,7 +280,7 @@ color: #e6e6e6;
 }
 
 #submain3 h4{
-	padding: 5px 20px; font-family: times new roman; color: #ffc34d; font-size: 150%;
+	padding: 5px 20px; font-family: 'Nunito Sans', sans-serif,Arial; color: #ffc34d; font-size: 150%;
 }
 .wbutton3{
 	padding: 5px 20px;
@@ -331,7 +331,7 @@ color: #e6e6e6;
 }
 
 .rightside h2{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 }
 
 #footer{font-size: 14px;
@@ -396,10 +396,10 @@ color: #e6e6e6;
 }
 	h1{
 		color: #fff; font-family:'Nunito Sans', sans-serif,
-		Times new roman; font-size: 18px;
+		'Nunito Sans', sans-serif,Arial; font-size: 18px;
 	}
 h3{
-	padding:5px 20px 5px 20px; font-family: Times new roman;
+	padding:5px 20px 5px 20px; font-family: 'Nunito Sans', sans-serif,Arial;
 	width: 85%;
 	font-size: 150%; background-color: #739900; 
 	color: #fff;margin: 0px auto;
@@ -456,7 +456,7 @@ h3{
 }
 
 #wmessage{
-	font-family:'Nunito Sans', sans-serif, Times new roman;
+	font-family:'Nunito Sans', sans-serif, 'Nunito Sans', sans-serif,Arial;
 	color:#cc0000; margin: 20px auto 20px 10px ; 
 	text-align: left; font-size: 18px;
 }
@@ -483,7 +483,7 @@ border:0px solid #000;
 	padding: 20px; font-size: 14px; margin: 0px;
 }
 #welcome h2{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 	margin: 10px auto; padding: 10px 0px 0px 0px;
 	font-size: 150%;
 }

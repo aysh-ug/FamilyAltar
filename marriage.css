@@ -53,9 +53,10 @@ li a:hover {
 	display: none;
 }
 
-#main{flex-direction: row;
+#main{
+
+
 	display: flex;min-height: 350px;
-	flex-wrap: wrap;
 }
 #othercontent{
 
@@ -65,9 +66,9 @@ li a:hover {
 #oright{
 	flex: 1; margin-left: 10px;
 }
-#oright h2{
+#oright h2{margin-top: 0;
 	margin-left: 20px;text-align: left;
-	color: #cc0000;font-family: Times new roman;
+	color: #cc0000;font-family: 'Nunito Sans', sans-serif,Arial;
 	font-size: 180%;
 }
 
@@ -94,14 +95,11 @@ li a:hover {
 	h1{
 		color: #fff; font-family: 'Nunito Sans', sans-serif,Arial;font-size: 150%;
 	}
-h4{
-	padding: 0px 20px 0px; text-align: center;
-}
-
 h3{
-	padding:5px 20px 5px 20px; font-family: Times new roman;
+	padding:5px 20px 5px 20px; font-family: 'Nunito Sans', sans-serif,Arial;
 	
-	font-size: 150%; background-color: #b34d4d; color: #fff;
+	font-size: 130%; background-color: #b34d4d; color: #fff;
+	font-weight: normal;
 }
 
 .dropbtn {
@@ -155,57 +153,53 @@ h3{
 
 #wmessage{
 	color:#b30000; margin: 5px auto 5px 20px; text-align: left;
-	font-weight: bold;font-family: 'Nunito Sans', sans-serif,arial;
+	font-weight: bold;font-family: 'Nunito Sans', sans-serif,Arial;
 }
 
  #welcome{ margin-top: 10px;
-border-radius: 20px;
-border:1px solid #000;
-max-width: 300px;
-min-width: 280px;
+border-radius: 0px;
+border:0px solid #000;
+min-width: 300px;
 font-size: 14px;
 overflow-y: scroll;
 height: 390px;
 /*background-color: #b3e0ff;*/
-  background:#e6e7e4; /* For browsers that do not support gradients */
+  background:#ddddd5; /* For browsers that do not support gradients */
+}
+#welcome h4{
+	color:  #000; padding: 0px 20px;font-size: 120%;
+	font-weight: normal;margin: 0;
 }
 
 #welcome img{
-	width: 40%;
-	float: none;
+	width: 90%;
+	float: left;
 	margin: 5px 20px 5px 5px;
 }
 #welcome p{
 	padding: 20px; font-size: 14px; margin: 0px;
 }
 #welcome h2{
-	font-family: times new roman;
-	margin: 0px 10px; padding: 10px 0px 0px 0px;
-	font-size: 150%;
-}
-
-#welcome form{
-	padding:5px 10px; margin: 10px;
-}
-
-#welcome form input{
-	padding:5px 10px; margin: 0px 0px 5px;
+	font-family: 'Nunito Sans', sans-serif,Arial;
+	margin: 10px auto; padding: 10px 0px 0px 10px;
+	font-size: 180%;
 }
 
 .wbutton{
 	padding: 5px 20px ;
 	border-radius: 0px;
-	border:0px solid #ff3333;
+	border:0px solid #b34d4d;
 	border-style: outset;
 	margin: 0px 20px 20px;
 	text-align: center;
 	float: none;
-	font-family: 'Nunito Sans', sans-serif, arial; font-size: 14px;
-	background-color:#99ff33;
+	font-family: 'Nunito Sans', sans-serif, arial;
+	 font-size: 14px;color: #fff;
+	background-color:#cc0000;
 }
 
 .wbutton a{
-	text-decoration: none;
+	text-decoration: none;color: #fff;
 }
 /*------------SUBMAIN 2----------*/
 #submain2{ margin-top: 10px;
@@ -222,12 +216,12 @@ max-width: 630px;
 	padding: 20px; font-size: 14px; margin-top: 10px;
 }
 #submain2 h2{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 	 padding: 10px 0px 10px 20px;
 	 font-size: 160%;margin: 0;
 }
 #submain2 h2 a{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 	 padding: 10px 20px;
 	 color: white;
 	}
@@ -246,9 +240,10 @@ max-width: 630px;
  /*-------------SUBMAIN 3----------*/
 
 #submain3{ margin-top: 10px;
+	margin-bottom: 0px;
 border-radius: 0px;
 border:0px solid #000;
-height: 300px;
+height: 400px;
 max-width: 630px;
 overflow-y: scroll;
 color: #e6e6e6;
@@ -257,15 +252,15 @@ color: #e6e6e6;
     }
 
 #submain3 img{
-	margin: 10px 20px; width: 55%;
+	margin: 10px 20px; width: 55%; float: left;
 }
 #submain3 p{
-	padding: 20px; font-size: 14px; margin-top: 10px;
+	padding: 5px 20px; font-size: 14px; margin: 0px;
 }
 #submain3 h2{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 	 padding: 10px 0px 0px 20px;
-	 font-size: 180%;margin: 0;
+	 font-size: 140%;margin: 0;color:#8c8c8c;
 }
 
 #submain3 h3{
@@ -279,8 +274,9 @@ color: #e6e6e6;
 	padding: 5px 20px; color: #33ccff;font-size: 14px;
 }
 
-#submain3 h4{
-	padding: 5px 20px; font-family: times new roman; color: #ffc34d; font-size: 150%;
+#submain3 h4{font-weight: normal;
+	padding: 5px 20px; font-family: 'Nunito Sans', sans-serif,Arial; 
+	color: #ffc34d; font-size: 120%; margin-top: 0;
 }
 .wbutton3{
 	padding: 5px 20px;
@@ -316,11 +312,11 @@ color: #e6e6e6;
 
 .rightside{
 	margin-right: 20px; max-width: 250px; padding: 20px;
-	 background-color: #ffb3b3; overflow-y: scroll;
+	 background-color: #ddddd5; overflow-y: scroll;
 	 height: 360px;
 }
 .rightside img{
-	width: 100%;
+	width: 80%;
 }
 .rightside p{
 	font-size: 14px; 
@@ -331,7 +327,7 @@ color: #e6e6e6;
 }
 
 .rightside h2{
-	font-family: times new roman;
+	font-family: 'Nunito Sans', sans-serif,Arial;
 }
 
 #footer{font-size: 14px;
@@ -395,14 +391,12 @@ color: #e6e6e6;
 	padding: 1px; border-bottom: 0.2px solid red;background-color:#000;
 }
 	h1{
-		color: #fff; font-family:'Nunito Sans', sans-serif,
-		Times new roman; font-size: 18px;
+		color: #fff; font-family:'Nunito Sans', sans-serif, 'Nunito Sans', sans-serif,Arial; font-size: 20px;
 	}
 h3{
-	padding:5px 20px 5px 20px; font-family: Times new roman;
-	width: 85%;
-	font-size: 150%; background-color: #739900; 
-	color: #fff;margin: 0px auto;
+	padding:5px 20px 5px 20px; 
+	width: 80%; font-weight: normal;
+	font-size: 120%; background-color: #b34d4d; color: #fff;
 }
 
 .dropbtn {
@@ -424,7 +418,7 @@ h3{
 .dropdown-content {
     display: none;
     background-color: rgba(230, 0, 0,0.8);
-    min-width: 200px;
+    min-width: 250px;
     
 }
 
@@ -456,21 +450,17 @@ h3{
 }
 
 #wmessage{
-	font-family:'Nunito Sans', sans-serif, Times new roman;
-	color:#cc0000; margin: 20px auto 20px 10px ; 
-	text-align: left; font-size: 18px;
+	font-family: 'Nunito Sans', sans-serif,Arial; color:#cc0000; margin: 5px auto 5px 20px; text-align: left;
 }
 .welcometext{
 	display: none;
 }
-#main{
-	display: flex; flex-direction: column;
-}
-#welcome{ margin: 10px;
+
+ #welcome{ margin: 0px;
 border-radius: 0px;
 border:0px solid #000;
 /*background-color: #b3e0ff;*/
- background:#e6e7e4; /* For browsers that do not support gradients */
+ background:#f3f3f1; /* For browsers that do not support gradients */
     min-height: 250px;
     }
 
@@ -483,38 +473,166 @@ border:0px solid #000;
 	padding: 20px; font-size: 14px; margin: 0px;
 }
 #welcome h2{
-	font-family: times new roman;
-	margin: 10px auto; padding: 10px 0px 0px 0px;
+	font-family: 'Nunito Sans', sans-serif,Arial;
+	margin: 10px ; padding: 10px 0px 0px 10px;
 	font-size: 150%;
 }
 
-#welcome form{
-	padding:5px 10px; margin: 10px;
+#welcome h4{
+	padding: 0px 20px; margin: 0; color: #bf4040; 
+	font-size: 120%;
+}
+#oright{
+	margin: 10px;
 }
 
-#welcome form input{
-	padding:5px 10px; margin: 0px 0px 5px;
-}
 
-h4{
-	padding: 0px 20px 5px; text-align: center;
+#oright img{
+	width: 45%;
 }
 .wbutton{
 	padding: 5px 20px ;
 	border-radius: 0px;
 	border:0px solid #b34d4d;
+	background-color: #007399;
+	color: #fff;
 	border-style: outset;
 	margin: 0px 20px 20px;
 	text-align: center;
 	float: none;
-	font-family: 'Nunito Sans', sans-serif, arial; font-size: 14px;
-	background-color: #99cc00; 
+	font-family: 'Nunito Sans', sans-serif,Arial; font-size: 14px;
+	
 }
 
 .wbutton a{
-	text-decoration: none;
+	text-decoration: none; color: #fff;
+}
+/*------------SUBMAIN 2----------*/
+#submain2{ margin: 10px;
+border-radius: 0px;
+border:0px solid #000;
+background:#800000; }
+
+#submain2 img{
+	margin: 0px; width: 50%;padding-left: 20px;
+}
+#submain2 p{
+	padding: 20px; font-size: 14px; margin-top: 10px;
+}
+#submain2 h2{
+	font-family: 'Nunito Sans', sans-serif,Arial;
+	 padding: 10px 0px 10px 20px;
+	 font-size: 160%;margin: 0;
+}
+#submain2 h2 a{
+	font-family: 'Nunito Sans', sans-serif,Arial;
+	 padding: 10px 20px;color: #fff;
+	}
+
+.wbutton2{
+	padding: 5px 20px;
+	border-radius: 0px;
+	border:0.3px solid #b34d4d;
+	border-style: outset;
+	margin: 0px 20px 20px;
+	text-align: center;
+	float: none;
+	font-family: 'Nunito Sans', sans-serif,Arial; font-size: 14px;
+	background-color:#fff
+}
+ /*-------------SUBMAIN 3----------*/
+
+ /*-------------SUBMAIN 3----------*/
+
+#submain3{ margin-top: 10px;
+border-radius: 0px;
+border:0px solid #000;
+max-width: 630px;
+color: #e6e6e6;
+/*background-color: #b3e0ff;*/
+ background:#1a1a1a; /* For browsers that do not support gradients */
+    }
+
+#submain3 img{
+	margin: 10px 20px; width: 55%;
+}
+#submain3 p{
+	padding: 0px 20px; font-size: 14px; margin-top: 5px;
+}
+#submain3 h2{
+	font-family: 'Nunito Sans', sans-serif,Arial;
+	 padding: 10px 0px 0px 20px;
+	 font-size: 120%; margin: 0;color: #8c8c8c;
 }
 
+#submain3 h3{
+	margin-bottom: 0; background-color: #007399;
+}
+
+#submain3 i{
+	padding: 5px 20px; font-size: 14px;
+}
+#submain3 em{
+	padding: 5px 20px; color: #33ccff;font-size: 14px;
+}
+#submain3 h4{
+	padding: 5px 20px; font-family: 'Nunito Sans', sans-serif,Arial; 
+	color: #ffc34d; font-size: 120%; font-weight: normal;
+	margin: 0;
+}
+.wbutton3{
+	padding: 5px 20px;
+	border-radius: 0px;
+	border:0px solid #b34d4d;
+	border-style: outset;
+	margin: 10px 20px 20px;
+	text-align: center;
+	float: none;
+	color: #fff;
+	font-family: 'Nunito Sans', sans-serif,arial; font-size: 14px;
+	background-color:#cc0000;
+
+}
+
+.wbutton3 a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.seen {
+	 display:flex; flex-direction: row;
+}
+
+.seen div{
+	flex:20% 80% ; 
+}
+.seen div h3{
+	color: #0040ff; background-color: transparent;
+	 padding-left: 0px; font-weight: normal;
+	 font-family: 'Nunito Sans', sans-serif,Arial;
+}
+
+#oright h2{
+	font-family: 'Nunito Sans', sans-serif,Arial; 
+}
+.rightside{
+	margin: 20px 0px;  padding: 20px;width: 90%;
+	 background-color: #f3f3f1;
+	 
+}
+
+.rightside h2{
+	font-family: 'Nunito Sans', sans-serif,Arial; 
+}
+.rightside img{
+	width: 90%;
+}
+.rightside p{
+	font-size: 14px; 
+}
+.rightside p em{
+	color: #b81414; padding-left: 20px;
+}
 #footer{font-family: 'Nunito Sans', sans-serif,arial;
 	background-color: #000;
 	padding: 5px 20px;
